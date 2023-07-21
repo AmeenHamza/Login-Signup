@@ -271,3 +271,18 @@ a {
 }
 
 /* Your existing transitions/animations */
+
+@media (max-width:600px) {
+    .nav_logo {
+        font-size: 18px;
+    }
+    .nav_item {
+        font-size: 12px;
+    }
+    .nav_item {
+        column-gap: 20px;
+    }
+    .button {
+        padding: 4px 16px;
+    }
+}
